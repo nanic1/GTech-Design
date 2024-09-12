@@ -1,0 +1,20 @@
+.top {
+    margin: -8px;
+    background-color: black;
+    color: white;
+    font-family: "Inter";
+    font-size: 12pt;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
