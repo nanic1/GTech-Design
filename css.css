@@ -58,11 +58,6 @@
     background-color: #ffe4a3;
 }
 
-p {
-    margin-top: 0;
-    padding-left: 60px;
-}
-
 .portifolio {
     height: 265px;
     margin-top: 0px;
@@ -70,7 +65,20 @@ p {
     margin-right: -8px;
     line-height: 160px;
     font-family: "Open Sans";
-    font-size: 40pt;
     background-color: #002555;
     color: white;
+}
+
+.titulo {
+    font-size: 40pt;
+    margin-top: 0;
+    padding-left: 150px;
+    margin-bottom: 0;
+}
+
+.legenda {
+    padding-left: 150px;
+    margin-top: -110px;
+    padding-top: 0;
+    font-size: 14pt;
 }
