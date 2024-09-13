@@ -1,5 +1,7 @@
 .top {
-    margin: -8px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
     background-color: black;
     color: white;
     font-family: "Inter";
@@ -81,4 +83,36 @@
     margin-top: -110px;
     padding-top: 0;
     font-size: 14pt;
+}
+
+.fundopesquisa {
+    margin-top: -57px;
+    margin-left: 22%;
+    height: 115px;
+    width: 776px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+}
+
+.pesquisa {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 67px;
+    width: 693px;
+    background-color: #D9D9D9;
+    font-size: 16pt;
+    font-family: "Open Sans";
+    display: grid;
+    padding-left: 50px;
+    border-radius: 15px;
+    border-color: white;
+    outline: none;
+}
+
+.icon {
+    font-size: 28px;
+    left: -655px;
+    position: relative;
 }
