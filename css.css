@@ -86,8 +86,8 @@
 }
 
 .fundopesquisa {
-    margin-top: -57px;
-    margin-left: 22%;
+    margin: auto;
+    margin-top: -55px;
     height: 115px;
     width: 776px;
     background-color: white;
@@ -97,14 +97,13 @@
 }
 
 .pesquisa {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 auto;
     height: 67px;
-    width: 693px;
+    width: 550px;
     background-color: #D9D9D9;
     font-size: 16pt;
     font-family: "Open Sans";
-    display: grid;
+    display: flex;
     padding-left: 50px;
     border-radius: 15px;
     border-color: white;
@@ -116,3 +115,39 @@
     left: -655px;
     position: relative;
 }
+
+.sobre {
+    background-color: #002555;
+}
+
+.gtech {
+    width: 400px;
+    height: 224px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.gtext {
+    font-family: "Open Sans";
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.gtexto {
+    font-family: "Open Sans";
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+/* {
+    outline: red solid 1px;
+  }
